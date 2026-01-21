@@ -225,12 +225,7 @@ export default function ScrollSequence() {
       {/* CANVAS */}
       <canvas ref={canvasRef} className="absolute top-0 left-0 w-full h-full object-cover z-0" />
 
-      {/* LOADING INDICATOR (Optional) */}
-      {!imagesLoaded && (
-         <div className="absolute top-4 right-4 text-xs text-gray-500 z-50">
-            Loading sequence...
-         </div>
-      )}
+     
 
       {/* HERO CONTENT */}
       <div 
